@@ -16,6 +16,8 @@ module.exports = {
         .setTitle("**Click The Button To Verify**")
         .setDescription("Click the button attached to this embed to Verify yourself in this server and gain the <@&834760168570355733> role!")
         .setColor(0x90ee90)
+        .setTimestamp()
+        .setFooter('Vetlix-Utilities Verify System')
         simplydjs.btnrole(client, message, {
             embed: verifyEmbed,
             data: [
