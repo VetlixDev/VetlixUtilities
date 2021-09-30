@@ -2,7 +2,7 @@ const { Message, Permissions, Client, MessageEmbed } = require("discord.js");
 const simplydjs = require('simply-djs');
 
 module.exports = {
-    name: "age",
+    name: "verify",
     aliases: [],
     /**
      *
