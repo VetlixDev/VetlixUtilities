@@ -16,7 +16,7 @@ module.exports = {
         .setTitle("**Reaction Roles**")
         .setDescription("**__Ping Roles__** \n:purple_square: <@&835226610323292201> \n:brown_square: <@&835226643152371742> \n:green_square: <@&857977256294613042> \n:blue_square: <@&857975840495370282>")
         .setColor(0xBFFF00)
-        .setImage("https://i.imgur.com/yGdz9z1.png")
+        .setImage("https://i.imgur.com/GkDWycH.png")
         simplydjs.btnrole(client, message, {
             embed: genderEmbed,
             data: [
