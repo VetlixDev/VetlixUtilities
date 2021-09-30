@@ -81,7 +81,7 @@ client.on("interactionCreate", async (interaction) => {
                     .setLabel('🔒 Close Ticket!')
                     .setStyle('DANGER'),
                 );
-            interaction.user.send('You\'r Help Ticket Has been made!');
+            interaction.user.send('Your Help Ticket Has been made!');
             thread.send({
                 content: `<@${interaction.user.id}> <@&893118951058440192> <@&834767562939301951>`,
                 embeds: [embed],
@@ -124,7 +124,7 @@ client.on("interactionCreate", async (interaction) => {
                     .setLabel('🔒 Close Ticket!')
                     .setStyle('DANGER'),
                 );
-            interaction.user.send('You\'r Help Ticket Has been made!');
+            interaction.user.send('Your Help Ticket Has been made!');
             thread.send({
                 content: `<@${interaction.user.id}> <@&893118951058440192> <@&834767562939301951>`,
                 embeds: [embed],
