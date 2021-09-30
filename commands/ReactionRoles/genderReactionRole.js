@@ -11,6 +11,7 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, message, args) => {
+        if (!message.member.hasPermission('ADMINISTRATOR')) return
         const genderEmbed = new MessageEmbed() 
         .setTitle("**Reaction Roles**")
         .setDescription("**__Gender Roles__** \n:boy: <@&836178515329155104> \n:girl: <@&836178562846294036>")
